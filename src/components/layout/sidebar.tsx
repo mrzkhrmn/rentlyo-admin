@@ -22,7 +22,7 @@ export function Sidebar() {
   };
 
   return (
-    <aside className="relative flex h-full w-64 shrink-0 flex-col overflow-hidden border-r border-white/5 bg-sidebar text-sidebar-foreground animate-fade-in">
+    <aside className="relative sticky top-0 flex h-dvh w-64 shrink-0 flex-col overflow-hidden border-r border-white/5 bg-sidebar text-sidebar-foreground animate-fade-in">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_0%,color-mix(in_srgb,var(--color-sidebar-accent)_35%,transparent),transparent_45%)]" />
       <div className="relative border-b border-white/8 px-5 py-6">
         <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-sidebar-accent">
@@ -36,7 +36,7 @@ export function Sidebar() {
         </p>
       </div>
 
-      <nav className="relative flex flex-1 flex-col gap-1 px-3 py-4">
+      <nav className="relative flex flex-1 flex-col gap-1 overflow-y-auto px-3 py-4">
         {navItems.map((item) => {
           const active =
             item.href === "/"
