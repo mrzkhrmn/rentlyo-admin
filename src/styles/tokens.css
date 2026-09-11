@@ -1,0 +1,70 @@
+/**
+ * Palette: #18230F · #27391C · #255F38 · #1F7D53
+ */
+
+:root {
+  /* Brand */
+  --color-primary: #255f38;
+  --color-primary-hover: #1f7d53;
+  --color-primary-foreground: #f7faf8;
+  --color-secondary: #27391c;
+  --color-secondary-foreground: #e8f0ea;
+  --color-accent: #1f7d53;
+  --color-accent-soft: color-mix(in srgb, #1f7d53 14%, white);
+
+  /* Surfaces */
+  --color-background: #f4f7f5;
+  --color-background-gradient-from: #eef5f0;
+  --color-background-gradient-to: #f7faf8;
+  --color-foreground: #18230f;
+  --color-surface: #ffffff;
+  --color-surface-elevated: rgba(255, 255, 255, 0.78);
+  --color-surface-foreground: #18230f;
+  --color-muted: #e4ece6;
+  --color-muted-foreground: #5a6b5c;
+  --color-border: #d0ddd4;
+  --color-ring: #1f7d53;
+
+  /* Semantic */
+  --color-success: #1f7d53;
+  --color-success-soft: #e6f5ee;
+  --color-warning: #b8860b;
+  --color-warning-soft: #f8f1de;
+  --color-error: #b42318;
+  --color-error-soft: #fceceb;
+  --color-info: #255f38;
+  --color-info-soft: #e8f0ea;
+
+  /* Sidebar */
+  --color-sidebar: #18230f;
+  --color-sidebar-muted: #27391c;
+  --color-sidebar-foreground: #e8f0ea;
+  --color-sidebar-accent: #1f7d53;
+
+  /* Typography */
+  --font-sans: var(--font-plus-jakarta), "Plus Jakarta Sans", ui-sans-serif, sans-serif;
+  --font-display: var(--font-plus-jakarta), "Plus Jakarta Sans", ui-sans-serif, sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+
+  /* Radii */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+
+  /* Shadows */
+  --shadow-soft: 0 1px 2px rgb(24 35 15 / 4%), 0 8px 24px rgb(24 35 15 / 6%);
+  --shadow-elevated: 0 4px 12px rgb(24 35 15 / 6%), 0 16px 40px rgb(37 95 56 / 8%);
+  --shadow-glow: 0 0 0 1px rgb(31 125 83 / 12%), 0 12px 32px rgb(31 125 83 / 14%);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 280ms;
+}
